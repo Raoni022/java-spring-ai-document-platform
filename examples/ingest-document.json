@@ -1,0 +1,9 @@
+{
+  "title": "Service Agreement Template",
+  "sourceType": "template",
+  "content": "This agreement defines responsibilities, payment terms, termination clauses, confidentiality duties, audit rights, and dispute resolution procedures between the service provider and the client.",
+  "metadata": {
+    "jurisdiction": "BR",
+    "category": "contract"
+  }
+}
