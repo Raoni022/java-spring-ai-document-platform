@@ -6,7 +6,7 @@ public record AiSafetyCheckResult(
         boolean safe,
         List<String> reasons
 ) {
-    public static AiSafetyCheckResult safe() {
+    public static AiSafetyCheckResult allowed() {
         return new AiSafetyCheckResult(true, List.of());
     }
 
