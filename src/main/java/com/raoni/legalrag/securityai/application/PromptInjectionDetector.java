@@ -27,6 +27,6 @@ public class PromptInjectionDetector {
                 reasons.add(reason);
             }
         });
-        return reasons.isEmpty() ? AiSafetyCheckResult.safe() : AiSafetyCheckResult.unsafe(reasons);
+        return reasons.isEmpty() ? AiSafetyCheckResult.allowed() : AiSafetyCheckResult.unsafe(reasons);
     }
 }
